@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - CV Online</title>
+    <link rel="icon" href="Student-Female-Icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body link="#543778">
+
+    <header>
+        <div class="cabecalho">
+            <!-- Não utilizei uma foto minha, mas coloquei um "desenho" para representar o espaço em que ficaria uma foto -->
+            <img class="foto" src="Profile.jpg" alt="Foto de Perfil">
+            <nav class="cabecalho-menu">
+                <a class="cabecalho-menu-item" href="https://www.linkedin.com/in/vit%C3%B3ria-luiza-ribeiro-cassis-b31061215/">LinkedIn</a>
+                <a class="cabecalho-menu-item" href="https://github.com/VitoriaLRC">GitHub</a>
+                <a class="cabecalho-menu-item" href="#1">História Pessoal & Hobbies</a>
+                <a class="cabecalho-menu-item" href="#2">Formação & Experiência Profissional</a>
+            </nav>
+        </div>
+    </header>
+    
+    <br>
+    <hr>
+
+    <main class="conteudo">
+        <div id="1" class="conteudo-primario">
+            <!-- Utilizei a tag center ciente de que está obsoleto, porém queria centralizar somente o meu nome, e não o restante da div, então utilizei essa solução no momento -->
+            <center><h1 style="color: #543778;">Vitória Luiza Ribeiro Cassis</h1></center>
+            <br>
+            <h2>Um pouco sobre mim!</h2>
+            <br>
+            <ul>
+                <li>Computadores sempre fizeram parte da minha vida, com 4 anos eu já ligava o computador sozinha para jogar alguns joguinhos que estavam instalados ou acessava através de um CD que armazenava vários jogos, então acessar a internet, ver vídeos, jogar e digitar no teclado era algo natural, mas só comecei a pensar em cursar algo relacionado à computação quando fiz 16 anos. Assim como era natural utilizar o computador, foi um processo natural para que eu começasse a me interessar por essa área, quanto mais eu pesquisava mais eu gostava do que estava encontrando, e agora estou me esforçando para me desenvolver nessa área. </li>
+                <li>Quanto aos meus hobbies, eu costumava jogar mais quando era criança, atualmente eu passo mais do meu tempo livre lendo livros de fantasia (O Senhor dos Anéis, O Hobbit, Trono de Vidro, etc.) ou assistindo animações japonesas ou estadunidenses. 
+                </li>
+                <li>Também gosto muito de desenhar, e cheguei a fazer um breve curso de desenho e pintura, que eu gostaria muito de retomar futuramente.</li>
+            </ul>
+
+        </div>
+        <br>
+        <div id="2" class="conteudo-secundario">
+            <section>
+                <h2>Objetivo</h2>
+                <br>
+                <ul>
+                    <li>
+                        Estou estudando com o objetivo de iniciar uma carreira na área de TI, atualmente gostaria de trabalhar como analista de suporte, mas também tenho muito interesse na área de desenvolvimento.
+                    </li>
+                </ul>
+            </section>
+            <br>
+            <section>
+                <h2>Formação Acadêmica</h2>
+                <br>
+                <ul>
+                    <li>Ensino Médio completo - E.E. Leonor Fernandes da Silva</li>
+                    <li>Curso técnico em administração – Escola Humanidade (Completo, 2019 – 2021)</li>
+                    <li>Curso técnico em informática – IFSP (Completo, 2021 - 2022)</li>
+                    <li>Tecnologia em análise e desenvolvimento de sistemas – UNINTER (Cursando, 2023 – 2025)</li>
+                </ul>
+            </section>
+            <br>
+            <section>
+                <h2>Cursos Complementares</h2>
+                <br>
+                    <ul>
+                        <li>Operador de Microcomputador, 160 horas (Fundamentos de Hardware, Sistema Operacional Windows, Pacote Office, Open Office) - Senai Ítalo Bologna</li>
+                        <li>Excel Avançado, 40 horas - Senai Ítalo Bologna</li>
+                        <li>Inglês, 6 meses (primeiro módulo) - CNA</li>
+                    </ul>
+            </section>
+            <br>
+            <section>
+                <h2>Experiência Profissional</h2>
+                <br>
+                <ul>
+                    <li>Doctor Prime - (Salto - SP)</li>
+                        <p>Cargo: Recepcionista administrativa (03/11/2020 – atualmente)</p>
+                        <p>Atividades desempenhadas: Atendimento ao cliente, orçamentos de exames, utilização de sistema interno, organização de planilhas e documentos, e emissão de notas fiscais.</p>
+                </ul>
+            </section>
+            <br>
+            <section>
+                <h2>Formulário para contato</h2>
+                <br>
+                <!-- Fiz alguns testes com conteúdos que encontrei sobre forms na internet mas não consegui fazer nenhum deles funcionar, então o formulário ficou apenas como um elemento visual -->
+                <form action="/formulario-contato" method="post">
+                    <div>
+                        <label for="nome">Nome:</label>
+                        <input type="texto" id="nome" name="nome_usuario">
+                    </div>
+                    <div>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email_usuario">
+                    </div>
+                    <div>
+                        <label for="comentario">Comentário:</label>
+                        <textarea id="comentario" name="comentario_usuario"></textarea>
+                    </div>
+                </form>
+                <div class="button">
+                    <button style="background-color: #9788aa;" type="submit">Enviar</button>
+                  </div>
+            </section>
+        </div>
+    </main>
+
+    <hr>
+
+    <footer class="rodape">
+        <h3>Desenvolvido por Vitória Luiza Ribeiro Cassis | 2023</h3>
+    </footer>
+
+    <script>
+
+    </script>
+    
+</body>
+</html>

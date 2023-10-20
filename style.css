@@ -1,0 +1,100 @@
+/* Reset CSS */
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: rgb(112,112,113);
+    background: linear-gradient(90deg, rgba(112,112,113,1) 0%, rgba(255,255,255,1) 54%, rgba(163,163,163,1) 100%, rgba(0,0,0,1) 100%); 
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.foto {
+    border-radius: 100%;
+    max-width: 150px;
+    border: 1px solid black;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 375px;
+    padding-right: 375px;
+    margin-bottom: 48px;
+    margin-top: 48px;
+    font-size: 20px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 48px;
+    margin-top: 48px;
+    font-size: 20px;
+}
+
+  
+form div + div {
+    margin-top: 1em;
+}
+  
+label {
+    /* Para garantir que todos os rótulos tenham o mesmo tamanho e estejam devidamente alinhados*/
+    display: flex;
+    width: 90px;
+    text-align: right;
+}
+  
+input, textarea {
+    /* Para garantir que todos os campos de texto tenham as mesmas configurações de fonte */
+    font: 1em sans-serif;
+  
+    /* Para dar o mesmo tamanho a todos os campos de texto*/
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Para harmonizar o aspecto e a sensação da borda do campo de texto */
+    border: 1px solid #999;
+}
+  
+input:focus, textarea:focus {
+    /* Para dar um pouco de destaque aos elementos ativos*/
+    border-color: #000;
+}
+  
+textarea {
+    /* Para alinhar corretamente campos de texto multilinha com seus rótulos */
+    vertical-align: top;
+  
+    /* Para dar espaço suficiente para digitar algum texto */
+    height: 5em;
+}
+  
+.button {
+    /* Para posicionar os botões na mesma posição dos campos de texto */
+    padding-left: 125px; /* mesmo tamanho que os elementos do rótulo */
+    padding-top: 5px;
+}
+  
+
+
